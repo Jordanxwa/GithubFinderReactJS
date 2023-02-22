@@ -1,5 +1,5 @@
 
-function about() {
+function About() {
   return (
     <div>
     <h1 className="text-6xl mb-4">Github Finder</h1>
@@ -12,4 +12,4 @@ function about() {
   )
 }
 
-export default about
+export default About

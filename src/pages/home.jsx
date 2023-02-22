@@ -1,8 +1,12 @@
+import UserResults from "../components/users/UserResults"
 
-function home() {
+function Home() {
   return (
-    <h1 className="text-6xl mb-4">Welcome</h1>
-  )
+    <>
+    {/* Search Component */}
+    <UserResults />
+    </>
+    )
 }
 
-export default home
+export default Home
